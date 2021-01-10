@@ -17,6 +17,8 @@ export default function Login() {
                 window.location.href="/home"
             }else{
                 set_err("User not found.")
+                window.location.href="/signup"
+
             }
         }
     }
